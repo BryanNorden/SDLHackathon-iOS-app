@@ -3,7 +3,7 @@
 //  SDLHackMobile
 //
 //  Created by Bryan Norden on 9/11/18.
-//  Copyright © 2018 TribalScale. All rights reserved.
+//  Copyright © 2018 Bryan Norden. All rights reserved.
 //
 
 import UIKit

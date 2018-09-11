@@ -111,7 +111,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = TribalScale;
+				ORGANIZATIONNAME = "Bryan Norden";
 				TargetAttributes = {
 					93EDA37D2148617100FE1150 = {
 						CreatedOnToolsVersion = 10.0;
@@ -303,13 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8EU22292BA;
+				DEVELOPMENT_TEAM = KY85PLMKC9;
 				INFOPLIST_FILE = SDLHackMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TribalScale.SDLHackMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = engineer.bryan.SDLHackMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,13 +321,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8EU22292BA;
+				DEVELOPMENT_TEAM = KY85PLMKC9;
 				INFOPLIST_FILE = SDLHackMobile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.TribalScale.SDLHackMobile;
+				PRODUCT_BUNDLE_IDENTIFIER = engineer.bryan.SDLHackMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
