@@ -12,6 +12,7 @@
 		93EDA3872148617100FE1150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EDA3852148617100FE1150 /* Main.storyboard */; };
 		93EDA3892148617100FE1150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93EDA3882148617100FE1150 /* Assets.xcassets */; };
 		93EDA38C2148617100FE1150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EDA38A2148617100FE1150 /* LaunchScreen.storyboard */; };
+		93EDA397214865B700FE1150 /* PurchasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EDA396214865B700FE1150 /* PurchasesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		93EDA3882148617100FE1150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93EDA38B2148617100FE1150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93EDA38D2148617100FE1150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EDA396214865B700FE1150 /* PurchasesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,30 @@
 			isa = PBXGroup;
 			children = (
 				93EDA3812148617100FE1150 /* AppDelegate.swift */,
-				93EDA3832148617100FE1150 /* ViewController.swift */,
-				93EDA3852148617100FE1150 /* Main.storyboard */,
+				93EDA395214865B700FE1150 /* Views */,
 				93EDA3882148617100FE1150 /* Assets.xcassets */,
 				93EDA38A2148617100FE1150 /* LaunchScreen.storyboard */,
 				93EDA38D2148617100FE1150 /* Info.plist */,
 			);
 			path = SDLHackMobile;
+			sourceTree = "<group>";
+		};
+		93EDA395214865B700FE1150 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93EDA3852148617100FE1150 /* Main.storyboard */,
+				93EDA3832148617100FE1150 /* ViewController.swift */,
+				93EDA396214865B700FE1150 /* PurchasesViewController.swift */,
+				93EDA3982148668400FE1150 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93EDA3982148668400FE1150 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EDA397214865B700FE1150 /* PurchasesViewController.swift in Sources */,
 				93EDA3842148617100FE1150 /* ViewController.swift in Sources */,
 				93EDA3822148617100FE1150 /* AppDelegate.swift in Sources */,
 			);
