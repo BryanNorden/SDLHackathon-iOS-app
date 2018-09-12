@@ -23,31 +23,22 @@ final class PurchaseItemTableViewCell: UITableViewCell {
     @IBOutlet private weak var priceLabel: UILabel!
     
     @IBOutlet private weak var ticketImageView: UIImageView!
-
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        // Initialization code
-//    }
     
     func configure(_ item: PurchaseItem) {
         titleLabel.text = item.title
         dateLabel.text = item.dateString
         locationLabel.text = item.location
-        priceLabel.text = "\(item.price)"
+        priceLabel.text = "$\(item.price)"
         
         ticketImageView?.image = item.image
-
     }
 
 }
-
-// TODO: - Remove
 
 struct PurchaseItem {
     var title: String
     var dateString: String
     var location: String
-    var price: Float = 0.00
+    var price: Int
     var image: UIImage
 }
-
