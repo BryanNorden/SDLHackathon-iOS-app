@@ -35,10 +35,18 @@ final class PurchaseItemTableViewCell: UITableViewCell {
 
 }
 
-struct PurchaseItem {
+final class PurchaseItem {
     var title: String
     var dateString: String
     var location: String
     var price: Int
     var image: UIImage
+    
+    init(title: String, dateString: String, location: String, price: Int, image: UIImage, isExpanded: Bool) {
+        self.title = title
+        self.dateString = dateString
+        self.location = location
+        self.price = price
+        self.image = image
+    }
 }

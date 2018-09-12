@@ -28,13 +28,13 @@ final class TicketViewController: UIViewController {
         super.viewDidAppear(animated)
         
         items = [PurchaseItem(title: "Lakers vs Warriors",
-                              dateString: "September 13, 2018",
+                              dateString: "September 12, 2018",
                               location: "Staples Center",
                               price: 30,
                               image: UIImage(named: "lakersImage")!)
         ]
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 30) {
             self.tableView.insertRows(at: [IndexPath(row: 0, section: 0)], with: .top)
             
             self.tableView.beginUpdates()
